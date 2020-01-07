@@ -1,0 +1,126 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+header
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 30px;
+    margin-top: 10px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+li
+{
+    margin: auto ;
+    margin-right: 20px;
+}
+
+.connexion 
+{
+    background-color:#0288d1;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    color: white;
+}
+
+a
+{
+    color: #5f6368;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: black;
+    text-decoration: underline;
+}
+
+.center
+{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.rechercher
+{
+    border: #f2f2f3 solid 0.5px;
+    border-radius: 25px;
+    min-width: 560px;
+    padding: 5px 8px 0px 14px;
+}
+.rechercher:hover
+{  
+    box-shadow: 5px 5px 5px;
+}
+
+input
+{
+    height: 30px;
+    margin-top: -10px;
+    font-size: 18px;
+    width: 90%;
+    border: none;
+
+}
+
+button
+{
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    margin-left: 5px;
+    color: #5f6368;
+}
+
+button:hover
+{
+    border: solid #bcbcbe 0.5px;
+    color: black;
+}
+
+section
+{
+    margin-top: 130px;
+}
+
+.bas
+{
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 0.5px #bcbcbe ;
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+}
+
+.France
+{
+    margin-left: 40px;
+}
+
+footer
+{
+    color: rgba(0, 0, 0, .54);
+    border-top: solid 0.5px #bcbcbe ;
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+    bottom: 0px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
